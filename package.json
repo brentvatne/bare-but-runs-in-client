@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "^33.0.5",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-unimodules": "0.4.0",
+    "react-native-vector-icons": "^6.5.0"
+  },
+  "devDependencies": {
+    "babel-jest": "24.1.0",
+    "babel-preset-expo": "^5.2.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
